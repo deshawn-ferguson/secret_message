@@ -1,0 +1,29 @@
+.row {
+    margin-top: 25vh;
+}
+
+.render-h1 {
+    margin-top: 0;
+    color: white;
+}
+
+#msg-input, #link-imput {
+    color: whitesmoke;
+}
+
+label {
+    font-size: medium;
+}
+
+@font-face {
+    font-family: 'HACKED Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('HACKED Regular'), url('HACKED_Title.woff') format('woff');
+}
+
+header {
+    color: whitesmoke;
+    font-size: 75px;
+    font-family: 'HACKED Regular';
+}

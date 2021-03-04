@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="index.css">
+    <title>Secret Messenger</title>
+</head>
+<body class="#000000 black">
+    <header class="center-align">Secret Messenger</header>
+    <div class="row">
+        <div class="col s8 offset-s2">
+            <div class="card-panel input #212121 grey darken-4" id="form-div">
+                <form>
+                    <label>Enter your Secret message here!</label>
+                    <input id="msg-input" class="#212121 grey darken-4"/> <br>
+                    <button class="btn #00838f cyan darken-3">Create</button>
+                </form>
+            </div>
+            <div class="card-panel hide #212121 grey darken-4" id="link-div">
+                <div>
+                    <label>Share this link with a friend!</label>
+                    <input id="link-input" class="#ffffff white-text"/>
+                </div>
+            </div>
+            <div class="card-panel hide #212121 grey darken-4" id="render-div">
+                <h1 class="render-h1"></h1>
+                <div>
+                    <a href="./index.html" class="#1e88e5 blue-text darken-1">To create your own secret message, Click Here!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
